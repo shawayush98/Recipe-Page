@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    padding: 10vw;
+    font-family: "Outfit";
+    color: hsl(24, 5%, 18%);
+}
+
+.heading {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+main {
+    width: 50vw;
+    padding: 3vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content h1 {
+    padding: 20px 0;
+    font-family: "Young Serif";
+    font-size: 3vw;
+}
+
+.content p {
+    padding-bottom: 15px;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.prep-time p {
+    color: hsl(332, 51%, 32%);
+
+    font-size: 1.1em;
+}
+
+li {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ol {
+
+    padding-left: 20px;
+}
+
+b {
+    font-weight: bold;
+}
+
+article {
+    padding: 20px 0 30px 0;
+
+}
+
+hr {
+    border: 1px solid hsl(30, 18%, 87%);
+    width: 100%;
+}
+
+ol li::marker {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+table {
+    width: 100%;
+    padding-top: 10px;
+}
+
+td {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding: 10px 30px;
+    font-size: .8em;
+}
+
+tr:last-child td {
+    border: none;
+}
+
+tr :last-child {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+.third {
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        padding: 0;
+        width: 100vw;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .content{
+        margin: 20px;
+    }
+    .content h1{
+        font-size: 10vw;
+    }
+    .content p{
+        font-size:1.2em;
+    }
+    .prep-time{
+        margin: 20px;
+    }
+    .prep-time p{
+        font-size: 1.4em;
+    }
+    .prep-time li{
+        font-size: 1.1em;
+
+    }
+    .heading{
+        font-size: 9vw;
+    }
+    article {
+        margin: 20px;
+    }
+    li{
+        font-size: 1.1em;
+    }
+    .nutrients p{
+        font-size: 1.1em;
+    }
+    td{
+        font-size: 1.2em;
+    }
+}
